@@ -2,7 +2,7 @@ import WebSocket from 'ws';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 
 // === LOAD GOOGLE CREDENTIALS FROM ENV ===
-const creds = JSON.parse(JSON.parse(process.env.GOOGLE_CREDS_JSON));
+const creds = JSON.parse(process.env.GOOGLE_CREDS_JSON);
 
 // === CONFIG ===
 const sheetId = '1y2SIXUEosQZG8F1sOMazF4N8WopDJ__adEtWMKrbAzc'; // Your sheet ID
@@ -83,3 +83,4 @@ const doc = new GoogleSpreadsheet(sheetId);
     process.exit(1);
   });
 })();
+
