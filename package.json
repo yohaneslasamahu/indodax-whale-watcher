@@ -1,0 +1,13 @@
+{
+  "name": "indodax-whale-watcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ws": "^8.0.0",
+    "google-spreadsheet": "^3.3.0"
+  }
+}
